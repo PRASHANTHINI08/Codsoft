@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Join EcoSnap - Sustainable Future</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Lexend:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "error-container": "#ffdad6",
+                      "secondary": "#7d562d",
+                      "primary-container": "#2d5a27",
+                      "error": "#ba1a1a",
+                      "on-secondary-container": "#7a532a",
+                      "on-secondary-fixed": "#2c1600",
+                      "tertiary-fixed": "#cfe8e3",
+                      "on-error": "#ffffff",
+                      "tertiary-fixed-dim": "#b3cbc7",
+                      "surface-container-highest": "#e2e2e2",
+                      "primary-fixed": "#bcf0ae",
+                      "surface-variant": "#e2e2e2",
+                      "surface-bright": "#f9f9f8",
+                      "on-tertiary-fixed": "#091f1c",
+                      "background": "#f9f9f8",
+                      "on-tertiary-fixed-variant": "#354b48",
+                      "on-surface-variant": "#42493e",
+                      "outline": "#72796e",
+                      "on-primary-fixed-variant": "#23501e",
+                      "surface-dim": "#dadad9",
+                      "outline-variant": "#c2c9bb",
+                      "on-tertiary-container": "#afc7c3",
+                      "on-secondary": "#ffffff",
+                      "on-primary-fixed": "#002201",
+                      "surface-container-high": "#e8e8e7",
+                      "surface-container": "#eeeeed",
+                      "secondary-fixed": "#ffdcbd",
+                      "on-background": "#1a1c1c",
+                      "surface": "#f9f9f8",
+                      "surface-tint": "#3b6934",
+                      "primary-fixed-dim": "#a1d494",
+                      "secondary-container": "#ffca98",
+                      "surface-container-low": "#f3f4f3",
+                      "primary": "#154212",
+                      "on-secondary-fixed-variant": "#623f18",
+                      "inverse-surface": "#2f3130",
+                      "on-surface": "#1a1c1c",
+                      "on-error-container": "#93000a",
+                      "tertiary-container": "#3e5451",
+                      "tertiary": "#273d3a",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-on-surface": "#f1f1f0",
+                      "on-tertiary": "#ffffff",
+                      "inverse-primary": "#a1d494",
+                      "on-primary": "#ffffff",
+                      "secondary-fixed-dim": "#f0bd8b",
+                      "on-primary-container": "#9dd090"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "xs": "4px",
+                      "margin-mobile": "20px",
+                      "sm": "12px",
+                      "base": "8px",
+                      "gutter": "16px",
+                      "md": "24px",
+                      "lg": "40px",
+                      "xl": "64px"
+              },
+              "fontFamily": {
+                      "display": ["Plus Jakarta Sans"],
+                      "body-md": ["Lexend"],
+                      "label-md": ["Lexend"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "label-sm": ["Lexend"],
+                      "body-lg": ["Lexend"]
+              },
+              "fontSize": {
+                      "display": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                      "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                      "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.25", "fontWeight": "600"}],
+                      "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.04em", "fontWeight": "500"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .form-input-focus:focus-within {
+            box-shadow: 0 0 0 2px theme('colors.primary-fixed-dim');
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col">
+<!-- Top Navigation Anchor (Shared Component Execution) -->
+<header class="bg-[#FBFBF9] font-['Plus_Jakarta_Sans'] antialiased docked full-width top-0 shadow-sm shadow-emerald-900/5 border-none flex items-center justify-between px-6 h-16 w-full z-50">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#2D5A27]" data-icon="arrow_back">arrow_back</span>
+<span class="text-xl font-bold tracking-tight text-[#2D5A27]">EcoSnap</span>
+</div>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-stone-400 font-label-md hover:bg-stone-100 transition-colors px-3 py-2 rounded-lg" href="#">About</a>
+<a class="text-[#2D5A27] font-semibold font-label-md hover:bg-stone-100 transition-colors px-3 py-2 rounded-lg" href="#">Sign Up</a>
+</div>
+</header>
+<main class="flex-grow flex flex-col lg:flex-row items-stretch overflow-hidden">
+<!-- Left Side: Visual Hero (Desktop) -->
+<section class="hidden lg:flex lg:w-1/2 relative bg-primary-container overflow-hidden items-center justify-center p-20">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-60" data-alt="A serene, high-resolution landscape photograph capturing a lush, verdant forest clearing during the golden hour. Sunbeams pierce through the dense canopy of ancient oak trees, casting soft, warm light onto a carpet of vibrant green moss and delicate ferns. The atmosphere is tranquil and optimistic, symbolizing environmental restoration and growth. The color palette is dominated by deep forest greens and soft earthy browns, perfectly aligned with a conscious, sustainable lifestyle brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiRC39SPWWGrfds-nEB62Zua1pyF_M220ZYEFwi5nI8PFIuIA2yzmVKsqAT8dakfUYqEWYf0NBkAyVoavJ299DS6lJrUQCaVes4NZTzD6me8pPUDscvUJ1c_uiOBUs8jmfg8mCWXrsOBM9MM26extGc9bCEPLcWntU1sewy5yzCVT8pm5KxOZnBuEILGav__oEJfDa5UVEY-xlh96Pqgu9FahLNr6debie2jWMViW_F7EjYGzVn3q91rIUFrXYVflNZ_pJZDVmuic"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/80 to-transparent"></div>
+</div>
+<div class="relative z-10 text-white max-w-md">
+<h1 class="font-display text-display mb-6">Small snaps, big impact.</h1>
+<p class="font-body-lg opacity-90 leading-relaxed">Join a community of conscious consumers making the planet greener, one product at a time.</p>
+<div class="mt-12 flex gap-4">
+<div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/20">
+<span class="text-display block">12k</span>
+<span class="font-label-sm uppercase tracking-widest opacity-70">Trees Planted</span>
+</div>
+<div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/20">
+<span class="text-display block">85%</span>
+<span class="font-label-sm uppercase tracking-widest opacity-70">Waste Reduced</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Right Side: Sign Up Form -->
+<section class="w-full lg:w-1/2 flex flex-col justify-center items-center px-6 py-12 md:px-margin-mobile lg:px-xl bg-background">
+<div class="w-full max-w-[440px]">
+<!-- Header Text -->
+<div class="mb-10 text-center lg:text-left">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-2">Create your account</h2>
+<p class="font-body-md text-on-surface-variant">Start your journey toward a zero-waste lifestyle today.</p>
+</div>
+<!-- Form -->
+<form class="space-y-6">
+<!-- Full Name -->
+<div class="space-y-2">
+<label class="font-label-md text-on-surface ml-1" for="full_name">Full name</label>
+<div class="relative group">
+<div class="absolute inset-y-0 left-4 flex items-center pointer-events-none text-outline">
+<span class="material-symbols-outlined text-[20px]" data-icon="person">person</span>
+</div>
+<input class="w-full h-[56px] pl-12 pr-4 bg-surface-container-low border-none rounded-xl font-body-md text-on-surface placeholder:text-outline/60 focus:ring-2 focus:ring-primary-fixed-dim transition-all" id="full_name" placeholder="John Doe" type="text"/>
+</div>
+</div>
+<!-- Email Address -->
+<div class="space-y-2">
+<label class="font-label-md text-on-surface ml-1" for="email">Email address</label>
+<div class="relative group">
+<div class="absolute inset-y-0 left-4 flex items-center pointer-events-none text-outline">
+<span class="material-symbols-outlined text-[20px]" data-icon="mail">mail</span>
+</div>
+<input class="w-full h-[56px] pl-12 pr-4 bg-surface-container-low border-none rounded-xl font-body-md text-on-surface placeholder:text-outline/60 focus:ring-2 focus:ring-primary-fixed-dim transition-all" id="email" placeholder="name@example.com" type="email"/>
+</div>
+</div>
+<!-- Password -->
+<div class="space-y-2">
+<label class="font-label-md text-on-surface ml-1" for="password">Password</label>
+<div class="relative group">
+<div class="absolute inset-y-0 left-4 flex items-center pointer-events-none text-outline">
+<span class="material-symbols-outlined text-[20px]" data-icon="lock">lock</span>
+</div>
+<input class="w-full h-[56px] pl-12 pr-4 bg-surface-container-low border-none rounded-xl font-body-md text-on-surface placeholder:text-outline/60 focus:ring-2 focus:ring-primary-fixed-dim transition-all" id="password" placeholder="••••••••" type="password"/>
+<button class="absolute inset-y-0 right-4 flex items-center text-outline hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]" data-icon="visibility">visibility</span>
+</button>
+</div>
+</div>
+<!-- Terms of Service -->
+<div class="flex items-start gap-3 px-1 py-2">
+<div class="flex items-center h-5">
+<input class="w-5 h-5 rounded border-outline text-primary focus:ring-primary-fixed-dim bg-surface-container-low transition-all" id="terms" type="checkbox"/>
+</div>
+<label class="font-label-sm text-on-surface-variant leading-tight" for="terms">
+                            I agree to the <a class="text-primary font-semibold underline underline-offset-4" href="#">Terms of Service</a> and <a class="text-primary font-semibold underline underline-offset-4" href="#">Privacy Policy</a>.
+                        </label>
+</div>
+<!-- Submit Button -->
+<button class="w-full h-[60px] bg-primary text-on-primary font-headline-md rounded-full shadow-lg shadow-primary/10 active:scale-95 transition-all flex items-center justify-center gap-2 mt-4 hover:bg-primary-container" type="submit">
+                        Create Account
+                        <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</form>
+<!-- Social Divider -->
+<div class="relative my-10">
+<div aria-hidden="true" class="absolute inset-0 flex items-center">
+<div class="w-full border-t border-outline-variant"></div>
+</div>
+<div class="relative flex justify-center">
+<span class="bg-background px-4 font-label-sm text-outline uppercase tracking-widest">Or continue with</span>
+</div>
+</div>
+<!-- Social Buttons -->
+<div class="grid grid-cols-2 gap-4 mb-10">
+<button class="flex items-center justify-center h-[52px] bg-surface-container border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors">
+<img alt="Google" class="w-5 h-5 mr-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUpsu67E9OKHyNmAJ6AFlNm877VRqRAkOH6i2ZpdSAQjV-glwLGC4ve0hwnnAFQki4FcS1ikw73AbVH3WcF3_mcOkVhlPJZ8XxxbSW8GXVJZrjfguXc3TXRGk1LOMu-NJA2y2jXosNx5uHgE3bqd4KyFs58w0O6bP2GFWLO93QXYFm4t4xEik8QQfv4Rh89aToXHGgJSowN5QL1opBvzHWQCb5t59zf3j0QiJjtlZtWCJSfTCvksxuu_d7KB9f6z84JGFJ2rLRKo8"/>
+<span class="font-label-md">Google</span>
+</button>
+<button class="flex items-center justify-center h-[52px] bg-surface-container border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined mr-2" data-icon="brand_awareness">brand_awareness</span>
+<span class="font-label-md">Apple</span>
+</button>
+</div>
+<!-- Footer Link -->
+<p class="text-center font-body-md text-on-surface-variant">
+                    Already have an account? 
+                    <a class="text-primary font-bold hover:underline underline-offset-4 decoration-2" href="#">Log in</a>
+</p>
+</div>
+</section>
+</main>
+<!-- Footer Meta (Mobile Only) -->
+<footer class="lg:hidden p-8 bg-surface-container-lowest text-center">
+<p class="font-label-sm text-outline">© 2024 EcoSnap. Conscious Clarity for a better world.</p>
+</footer>
+</body></html>
